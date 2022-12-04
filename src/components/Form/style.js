@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         paddingTop: 14,
         paddingBottom: 14,
         marginLeft: 12,
-        margin: 30,
+        marginTop: 30,
     },
     textButtonCalculator: {
         fontSize: 20,
