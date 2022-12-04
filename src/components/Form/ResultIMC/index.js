@@ -1,18 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet} from "react-native";
+import { View, Text} from "react-native";
+import styles from "./style";
 
 export default function ResultIMC(props) { 
     return(
-        <View style={styles.container}>
-            <Text>{props.messageResultIMC}</Text>
-            <Text>{props.resultIMC}</Text>
+        <View style={styles.resultIMC}>
+            <Text style={styles.information}>{props.messageResultIMC}</Text>
+            <Text style={styles.numberIMC}>{props.resultIMC}</Text>
         </View>
     );
 }
 
-const styles = StyleSheet.create({
-    container: {
-        marginTop: 30,
-    }
-    
-})
