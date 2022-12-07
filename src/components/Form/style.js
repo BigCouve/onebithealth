@@ -51,7 +51,8 @@ const styles = StyleSheet.create({
     exhibitionResultIMC: {
         width: "100%",
         height: "50%",
-    }
+    },
+    
 })
 
 export default styles;
